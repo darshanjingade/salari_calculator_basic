@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary calculator</title>
+    <link rel="stylesheet" href="calculator.css"></link>
+    <script src="../angular.js"></script>
+
+</head>
+<body>
+    <center>
+    <h1>Salary calculator</h1>
+    <hr>
+    <div>
+        <div><label>Basic Salary : </label></div>
+        <div><input type="number" id="basic" value="0"></input></div>
+    </div>
+    <div>
+        <div><label>HRA : </label></div>
+        <div><input type="number" id="hra" value="0"></input></div>
+    </div> 
+    <div>
+        <div><label>Da : </label></div>
+        <div><input type="number" id="da" value="0"></input></div>
+    </div>
+    <div>
+        <div><label>Tax(%) : </label></div>
+        <div><input type="range" id="tax" value="0"></input><label id="taxval" for="">%</label></div>
+    </div>   <br> 
+    <a id="submit">Calculate</a><br> 
+    <hr>
+   <div><label><strong>Salary :</strong><strong id="salary">Click on Calculate</strong></label></div>
+</center>
+</body>
+<script src="calculator.js"></script>
+</html>
